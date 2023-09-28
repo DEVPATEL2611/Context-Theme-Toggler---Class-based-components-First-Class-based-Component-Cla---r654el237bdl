@@ -15,7 +15,7 @@ const ThemeToggleButton = () =>{
     }
     return (
        <>
-       <button id="global-theme-toggler" onClick={toggleTheme} className={'btn btn-'+context.theme}>
+       <button id="global-theme-toggler" onClick={toggleTheme} className={'btn btn-'+context.theme+" txt-"+context.theme}>
         Switch to {context.theme === "light" ? "dark" : "light"} theme
        </button>
        </>

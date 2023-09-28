@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { ThemeContext } from './ThemeProvider';
 const LocalThemedBox = () => {
     const context = useContext(ThemeContext);
-    const [localTheme,setLocalTheme] = useState("dark");
+    const [localTheme,setLocalTheme] = useState("light");
     const toggleLocalTheme = ()=>{
         if(localTheme==="light") setLocalTheme("dark");
         else setLocalTheme("light");

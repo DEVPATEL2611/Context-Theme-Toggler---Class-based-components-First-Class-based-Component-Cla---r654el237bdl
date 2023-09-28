@@ -9,7 +9,7 @@ const Page = () => {
             <p id="themed-text-container" className={'txt-'+context.theme}>
                 lorem ipsum dolor iterit n stuff
             </p>
-            <button className={"btn btn-"+context.theme} id="themed-button">Themed Button</button>
+            <button className={"btn btn-"+context.theme+" txt-"+context.theme} id="themed-button">Themed Button</button>
             <LocalThemedBox />
         </div>
     )

@@ -4,9 +4,9 @@ const ThemeContext = React.createContext()
 const ThemeProvider = (props) =>{
 
     return (
-        <React.Fragment>
-
-        </React.Fragment>
+        <ThemeContext.Provider value={props.value}>
+            {props.childern}
+        </ThemeContext.Provider>
     )
 }
 

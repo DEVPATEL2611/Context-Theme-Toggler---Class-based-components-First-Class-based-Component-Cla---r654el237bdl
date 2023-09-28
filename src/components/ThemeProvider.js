@@ -5,6 +5,7 @@ const ThemeProvider = (props) =>{
 
     return (
         <ThemeContext.Provider value={props.value}>
+           
             {props.childern}
         </ThemeContext.Provider>
     )
